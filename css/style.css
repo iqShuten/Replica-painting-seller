@@ -187,6 +187,45 @@ header, footer, .catalog__cart {
     font-size: 20px;
     align-self: start;
 }
+.team {
+    margin-top: 149px;
+}
+.team__flex {
+    display: flex;
+
+}
+.team__img {
+    position: relative;
+    width: 600px;
+}
+.picture-frame {
+    position: absolute;
+    
+}
+.hand-tassel {
+    position: absolute;
+    top: -79px;
+    right: 127px;
+}
+.team__about {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 41px;
+    gap: 20px;
+}
+.team__title {
+}
+.team__text {
+    width: 635px;
+}
+.team__contacts {
+    display: flex;
+    gap: 30px;
+}
+.team__link {
+}
+
 
 
 
