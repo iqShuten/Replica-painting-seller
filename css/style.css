@@ -9,6 +9,7 @@ html {
     --light-green: #D4E8D9;
     --green: #598D66;
     --dark-green: #376B44;
+    --grey: #86928B;
 }
 body {
     margin: 0;
@@ -33,34 +34,34 @@ h1, h2, h3, h4, h5, h6, p {
 header, footer, .catalog__cart {
     background-color: #E1EDE6;
 } 
-.text-h1{
+.text-h1 {
     font-size: 60px;
     line-height: 110%;
     letter-spacing: 0px;
 }
-.text-h2{
+.text-h2 {
     font-size: 40px;
 }
-.text-h3{
+.text-h3 {
     font-size: 30px;
 }
-.text-h4{
+.text-h4 {
     font-size: 20px;
 }
-.text-p{
+.text-p {
     font-size: 18px;
     font-style: normal;
     line-height: 150%;
     letter-spacing: 0px;
 }
-.text-green{
+.text-green {
     color: var(--green);
 }
-.container{
+.container {
     width: 77vw;
     margin: 0 auto;
 }
-.header{
+.header {
     display: flex;
     height: 100px;
     justify-content: space-between;
@@ -91,7 +92,7 @@ header, footer, .catalog__cart {
     align-items: flex-start;
     gap: 20px;
 }
-.about__info__flex>.primary_btn{
+.about__info__flex>.primary_btn {
     margin-top: 40px;
 }
 .primary_btn {
@@ -133,7 +134,7 @@ header, footer, .catalog__cart {
     margin-bottom: 15px;
 }
 .cart__author-name {
-    color: #86928B;
+    color:var(--grey);
     margin-bottom: 8px;
 }
 .cart__painting-name {
@@ -143,7 +144,7 @@ header, footer, .catalog__cart {
     margin-bottom: 27px;
 }
 .cart__price {
-    margin-bottom: 19px;
+    margin-bottom: 18px;
     font-size: 24px;
 }
 .catalog_btn {
@@ -151,6 +152,7 @@ header, footer, .catalog__cart {
     padding-top: 20px;
     padding-bottom: 20px;
     border: 1px solid var(--green);
+    background-color: #E1EDE6;
 }
 .news {
     background: url(../img/news_background.jpg), lightgray -19px -343.452px / 102.639% 329.486% no-repeat; /* непонятное!! видимо отдельно настраивается оттенок картинки */
@@ -159,7 +161,7 @@ header, footer, .catalog__cart {
     color: white;
     padding: 69px 0 70px 0;
 }
-.news__flex{
+.news__flex {
     display: flex;
     flex-direction: column;
 }
@@ -188,7 +190,7 @@ header, footer, .catalog__cart {
     align-self: start;
 }
 .team {
-    margin-top: 149px;
+    margin-top: 69px;
 }
 .team__flex {
     display: flex;
@@ -198,15 +200,6 @@ header, footer, .catalog__cart {
     position: relative;
     width: 600px;
 }
-.picture-frame {
-    position: absolute;
-    
-}
-.hand-tassel {
-    position: absolute;
-    top: -79px;
-    right: 127px;
-}
 .team__about {
     margin-left: 30px;
     display: flex;
@@ -215,6 +208,7 @@ header, footer, .catalog__cart {
     gap: 20px;
 }
 .team__title {
+    margin-top: 80px;
 }
 .team__text {
     width: 635px;
@@ -223,12 +217,50 @@ header, footer, .catalog__cart {
     display: flex;
     gap: 30px;
 }
-.team__link {
+.footer {
+    display: flex;
+    margin-top: 70px;
+    margin-bottom: 23px;
+    padding-top: 23px;
 }
-
-
-
-
-
-
-
+.footer__contacts {
+    display: flex;
+    flex-direction: column;
+}
+.footer__phone {
+    margin-top: 35px;
+}
+.footer__addressee {
+    margin-top: 8px;
+    color: var(--grey);
+}
+.footer__links {
+    margin-left: 125px;
+    display: flex;
+    gap: 60px;
+}
+.footer__links-locumn {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.footer__links-locumn>p {
+    color: var(--grey);
+}
+.footer__social-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+}
+.footer__social {
+    display: flex;
+    gap: 30px;
+}
+.footer__info {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-size: 12px;
+    color: var(--grey);
+}

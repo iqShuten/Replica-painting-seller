@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
     <title>Replica painting seller</title>
 </head>
 <body>
@@ -17,32 +17,32 @@
                 <h4 class="text-h4 text-green">Ink. House</h4>
             </div>
             <nav class="nav-flex">
-                <a class="text-h4" href="@">Репродукции</a>
-                <a class="text-h4" href="@">Новинки</a>
-                <a class="text-h4" href="@">О нас</a>
-                <a href="@"><img src="img/shopping-cart.svg" alt="Shopping cart"></a>
+                <a class="text-h4" href="#">Репродукции</a>
+                <a class="text-h4" href="#">Новинки</a>
+                <a class="text-h4" href="#">О нас</a>
+                <a href="#"><img src="img/shopping-cart.svg" alt="Shopping cart"></a>
             </nav>
         </div>
     </header>
     <main>
-        <div class="about">
+        <section class="about">
             <div class="container about__flex">
                 <img src="img/bird-about-1440.jpg" alt="Bird">
                 <div class="about__info__flex">
                     <h1 class="text-h1">Реплики картин от <span class="text-green">Ink. House</span></h1>
                     <p class="text-p">Высокое качество отрисовки на плотной бумаге или льняном холсте. Редкие произведения, доступные цены.</p>
-                    <a class="primary_btn text-h4 text-green" href="@">Продукция</a>
+                    <a class="primary_btn text-h4 text-green" href="#">Продукция</a>
                 </div>
             </div>
-        </div>
-        <div class="catalog">
+        </section>
+        <section class="catalog">
             <div class="container">
                 <div class="catalog__title">
                     <div class="text-h2">Репродукции</div>
-                    <div class="block__tab-btn">                    <!-- задать вопрос сане по имени класса -->
-                        <a class="tab_btn text-h4" href="@">Франция</a>
-                        <a class="tab_btn text-h4" href="@">Германия</a>
-                        <a class="tab_btn text-h4" href="@">Англия</a>
+                    <div class="block__tab-btn">                   
+                        <a class="tab_btn text-h4" href="#">Франция</a>
+                        <a class="tab_btn text-h4" href="#">Германия</a>
+                        <a class="tab_btn text-h4" href="#">Англия</a>
                     </div>
                 </div>
                 <div class="catalog__grid">
@@ -52,15 +52,15 @@
                         <h3 class="cart__painting-name text-h3">Охота Амура</h3>
                         <p class="cart__paints text-p">Холст, масло (50х80)</p>
                         <h4 class="cart__price text-green">14 500 руб</h4>
-                        <a class="text-h4 text-green catalog_btn" href="@">В корзину</a>
+                        <button class="text-h4 text-green catalog_btn">В корзину</button>
                     </div>
                     <div class="catalog__cart">
                         <img class="cart__img" src="img/woman_with_dog.jpg" alt="" >
                         <p class="cart__author-name text-p">Анри Селин</p>
                         <h3 class="cart__painting-name text-h3">Дама с собачкой</h3>
-                        <p class="cart__paints text-p">ХАкрил, бумага (50х80) </p>
+                        <p class="cart__paints text-p">Акрил, бумага (50х80) </p>
                         <h4 class="cart__price text-green">16 500 руб</h4>
-                        <a class="text-h4 text-green catalog_btn" href="@">В корзину</a>
+                        <button class="text-h4 text-green catalog_btn">В корзину</button>
                     </div>
                     <div class="catalog__cart">
                         <img class="cart__img" src="img/procedure.jpg" alt="" >
@@ -68,7 +68,7 @@
                         <h3 class="cart__painting-name text-h3">Процедура</h3>
                         <p class="cart__paints text-p">Цветная литография (40х60) </p>
                         <h4 class="cart__price text-green">20 000 руб</h4>
-                        <a class="text-h4 text-green catalog_btn" href="@">В корзину</a>
+                        <button class="text-h4 text-green catalog_btn">В корзину</button>
                     </div>
                     <div class="catalog__cart">
                         <img class="cart__img" src="img/rose.jpg" alt="" >
@@ -76,7 +76,7 @@
                         <h3 class="cart__painting-name text-h3">Роза</h3>
                         <p class="cart__paints text-p">Бумага, акрил (50х80) </p>
                         <h4 class="cart__price text-green">12 000 руб</h4>
-                        <a class="text-h4 text-green catalog_btn" href="@">В корзину</a>
+                        <button class="text-h4 text-green catalog_btn">В корзину</button>
                     </div>
                     <div class="catalog__cart">
                         <img class="cart__img" src="img/bird's_meal.jpg" alt="" >
@@ -84,7 +84,7 @@
                         <h3 class="cart__painting-name text-h3">Птичья трапеза</h3>
                         <p class="cart__paints text-p">Цветная литография (40х60) </p>
                         <h4 class="cart__price text-green">22 500 руб</h4>
-                        <a class="text-h4 text-green catalog_btn" href="@">В корзину</a>
+                        <button class="text-h4 text-green catalog_btn">В корзину</button>
                     </div>
                     <div class="catalog__cart">
                         <img class="cart__img" src="img/landscape_with_fish.jpg" alt="" >
@@ -92,43 +92,82 @@
                         <h3 class="cart__painting-name text-h3">Пейзаж с рыбой</h3>
                         <p class="cart__paints text-p">Цветная литография (40х60) </p>
                         <h4 class="cart__price text-green">20 000 руб</h4>
-                        <a class="text-h4 text-green catalog_btn" href="@">В корзину</a>
+                        <button class="text-h4 text-green catalog_btn">В корзину</button>
                     </div>
                 </div>    
             </div>
-        </div>
-        <div class="news">
+        </section>
+        <section class="news">
             <div class="container news__flex">
                 <div class="news___title">
                     <img src="img/star_yellow.png" alt="Star yellow">
                     <h2 class="text-h2 news__title-text">Новая коллекция французских авторов</h2>
                 </div>
-                <p class="text-p news__content">Сложно сказать, почему акционеры крупнейших компаний призывают нас к новым свершениям, которые, в свою очередь, должны быть заблокированы в рамках своих собственных рациональных ограничений. 
-                    Принимая во внимание показатели успешности, граница обучения кадров предопределяет высокую востребованность направлений прогрессивного развития.</p>
-                <a class="news__btn"href="@" >Ознакомиться</a>
+                <p class="text-p news__content">
+                    Сложно сказать, почему акционеры крупнейших компаний призывают нас к новым свершениям, которые, в свою очередь, должны быть заблокированы в рамках своих собственных рациональных ограничений. 
+                   <br>
+                   <br>
+                   Принимая во внимание показатели успешности, граница обучения кадров предопределяет высокую востребованность направлений прогрессивного развития.</p>
+                <a class="news__btn"href="#" >Ознакомиться</a>
             </div>
-        </div>
-        <div class="team">
+        </section>
+        <section class="team">
             <div class="container">
                 <div class="team__flex">
-                    <div class="team__img">
-                        <img class="picture-frame" src="img/picture_frame.png" alt="Picture frame">
-                        <img class="hand-tassel"src="img/hand_tassel.png" alt="Hand and tassel">
-                    </div>
+                    <img class="picture-frame" src="img/hand-tassel+frame.png" alt="Picture frame and hand tassel">
                     <div class="team__about">
                         <div class="team__title text-h2">Наша команда</div>
                         <div class="text-p team__text">Значимость этих проблем настолько очевидна, что базовый вектор развития позволяет оценить значение экспериментов, поражающих по своей масштабности и грандиозности. Мы вынуждены отталкиваться от того, что консультация с широким активом.</div>
                         <div class="team__contacts">
-                            <a href="@"><img class="team__link" src="img/autor-1.svg" alt="Autor #1"></a>
-                            <a href="@"><img class="team__link" src="img/autor-2.svg" alt="Autor #2"></a>
-                            <a href="@"><img class="team__link" src="img/autor-3.svg" alt="Autor #3"></a>
+                            <a href="#"><img class="team__link" src="img/autor-1.svg" alt="Autor #1"></a>
+                            <a href="#"><img class="team__link" src="img/autor-2.svg" alt="Autor #2"></a>
+                            <a href="#"><img class="team__link" src="img/autor-3.svg" alt="Autor #3"></a>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     </main>
     <footer>
+        <div class="container footer">
+            <div class="footer__contacts">
+                <div class="logo-name">
+                    <img src="img/star-green.png" alt="Green star">
+                    <h4 class="text-h4 text-green">Ink. House</h4>
+                </div>
+                <h4 class="text-h4 footer__phone">+7(999)543-54-54</h4>
+                <p class="footer__addressee">Мастерская</p>
+            </div>
+            <div class="footer__links">
+                <div class="footer__links-locumn">
+                    <h4 class="text-h4">Репродукции</h4>
+                    <p class="text-p">Франция</p>
+                    <p class="text-p">Германия</p>
+                    <p class="text-p">Англия</p>
+                </div>
+                <div class="footer__links-locumn">
+                    <h4 class="text-h4">Новинки</h4>
+                    <p class="text-p">2021</p>
+                    <p class="text-p">2020</p>
+                </div>
+                <div class="footer__links-locumn">
+                    <h4 class="text-h4">О нас</h4>
+                    <p class="text-p">Художники</p>
+                    <p class="text-p">Менеджеры</p>
+                </div>
+            </div>
+            <div class="footer__social-info">
+                <div class="footer__social">
+                    <img class="" src="img/facebook.svg" alt="Facebook" >
+                    <img class="" src="img/instagram.svg" alt="Instagram" >
+                    <img class="" src="img/youtube.svg" alt="Youtube" >
+                </div>
+                <div class="footer__info">
+                    <p>Ink. House ®
+                    <p>All rights reserved</p>
+                 </div>
+            </div>          
+        </div>
     </footer>
 </body>
 </html>
